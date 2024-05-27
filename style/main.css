@@ -1,0 +1,105 @@
+body {
+    background-image: url("../image/modern-background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: rgb(37, 83, 83);
+    background-color: rgb(93, 143, 114);
+    border-color: rgb(37, 83, 83);
+    border: width 1px;
+    margin: auto;
+    padding: 10px;
+    font-size: 400%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: underline;
+    border-style: solid;
+}
+
+h2{
+    text-align: left;
+    color: rgb(51, 66, 51);
+    background-color: rgb(214, 202, 136);
+    border-color: rgb(51, 66, 51);
+    border: width 1px;
+    margin: auto;
+    padding: 10px;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: underline;
+    border-style: solid;
+}
+
+p{
+    text-align: left;
+    color: rgb(214, 202, 136);
+    background-color:rgb(51, 66, 51) ;
+    border-color: rgb(93, 143, 114);
+    font-size: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: width 1px;
+    margin: auto; 
+    padding: 10px; 
+    border-style: solid;
+}
+
+a{
+    text-align: center;
+    color: rgb(93, 143, 114);
+    /*background-color:rgb(37, 83, 83) ;*/
+    border-color: rgb(93, 143, 114);
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    /*border: width 1px;*/
+    margin: auto;  
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+li{
+    color: rgb(93, 143, 114);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+background-image:utilisée pour définir une image de fond pour un élément HTML
+
+height:utilisé pour définir la hauteur d'un élément HTML
+
+background-position:utilisée pour définir la position de l'image de fond par rapport à son conteneur.
+
+background-repeat:utilisée pour spécifier si une image de fond doit être répétée (tessellée) à l'intérieur de son conteneur lorsqu'elle est plus petite que ce dernier.
+
+background-size:utilisée pour définir la taille de l'image de fond d'un élément HTML.
+
+text-align:utilisée pour spécifier l'alignement horizontal du texte à l'intérieur d'un élément HTML.
+
+color:utilisée pour définir la couleur du texte à l'intérieur d'un élément HTML
+
+background-color:utilisée pour définir la couleur de fond d'un élément HTML.
+
+border-color:utilisée pour définir la couleur de la bordure d'un élément HTML.
+
+border:utilisée pour définir les propriétés de la bordure autour d'un élément HTML.
+
+margin:utilisée pour contrôler l'espace autour d'un élément HTML, en définissant la marge extérieure de l'élément.
+
+padding:utilisée pour contrôler l'espace à l'intérieur des bords d'un élément HTML.
+
+font-size:utilisée pour définir la taille de la police de caractères à l'intérieur d'un élément HTML.
+
+font-family:utilisée pour spécifier la famille de polices à utiliser pour le texte à l'intérieur d'un élément HTML.
+
+text-decoration-line:utilisée pour spécifier le type de décoration de texte à appliquer à un élément HTML. Elle permet de définir la ligne de décoration du texte, telle que souligné, barré, etc.
+
+border-style:utilisée pour définir le style de la bordure autour d'un élément HTML.
+
+:hover:un pseudo-sélecteur utilisé pour appliquer des styles à un élément lorsque l'utilisateur survole cet élément avec le curseur de la souris.
+*/ 
